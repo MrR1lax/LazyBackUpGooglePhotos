@@ -1,7 +1,7 @@
 # Information to configure on https://console.cloud.google.com/ --> Client ID for Web application :
 $clientId = "" # OAuth 2.0 Client ID
 $clientSecret = "" # OAuth 2.0 Client Secret
-$redirecturi = "http://localhost" # OAuth 2.0 Authorized redirect URIs
+$redirecturi = "" # OAuth 2.0 Authorized redirect URIs
 $uri = "https://accounts.google.com/o/oauth2/v2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fphotoslibrary.readonly&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=$redirecturi&client_id=$clientid"
 # The return code in the return url after showing your credentials with your Google account at the previous url $uri :) :
 $code = ""
